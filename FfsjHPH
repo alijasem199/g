@@ -386,7 +386,7 @@ if($data == "ce" and $update->callback_query->message->chat->id == $admin){
 if($data == "off" and $update->callback_query->message->chat->id == $admin){ 
 bot('editMessageText',[
 'chat_id'=>$chat_id2,
-'message_id'=>$message_id,1533027960
+'message_id'=>$message_id,
       'text'=>"
 ☑️￤اهلا عزيزي :- `المطور` .
 ▫️￤اليك الاوامر الان حدد ماتريده 📩
